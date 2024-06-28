@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap'); 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media (max-width: 480px) {
+  .links, .foot {   
+    flex-direction: column;
+ }
+}
+
+.links{
+    background-color: #BFD8AF;
+    width: 100%;
+    padding: 12px;
+    margin: 0px;
+    overflow: hidden;
+    justify-content: space-between;
+  }
+
+  .links a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  .links a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .asp {
+    width: 100%;
+    
+}
+
+.name {
+  text-align: center;
+  position: absolute;
+  font-size: 60px;
+  top: 300px;
+   left: 50%;
+   bottom: 10px;
+  color: #99BC85;
+  font-family:'Lucida Grande', 'Lucida Sans Unicode';
+} 
+
+#but1 {
+  background-color: #99BC85;
+  width: 200px;
+  height: 60px;
+  border-radius: 12px;
+  border-color: rgb(14, 14, 14);
+  top: 100px;
+  left: 27%;
+  color: white;
+  font-size: 25px;
+  transition-duration: 0.4s;
+}
+
+#but1:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+
+.sec1 {
+  border-style: solid;
+  display: inline-flex;
+  width: 100%;
+  position: relative;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Nanum Gothic Coding", monospace;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#p1 {
+  display: flex;
+  width: 400px;
+  left: 5%;
+  text-align: left;
+  font-size: 20px;
+  margin: 1%;
+}
+
+#p2 {
+  display: flex;
+  width: 400px;
+  left: 60%;
+  text-align: right;
+  font-size: 20px;
+  padding: 2%;
+}
+
+.imgside {
+  display: flex;
+  right: 5%;
+  padding: 2%;
+  width: 100px;
+
+}
+
+.middle {
+  height: 300px;
+  background-color: #D4E7C5;
+}
+
+#butta {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 70px;
+  position: relative;
+  left: 20%;
+  margin: 40px;
+  font-family:  "Nanum Gothic Coding", monospace;
+  height: 200px;
+  background-color: #99BC85;
+  border-color: #99BC85;
+  cursor: pointer;
+}
+
+#buttb {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 70px;
+  position: relative;
+  left: 40%;
+  font-family:  "Nanum Gothic Coding", monospace;
+  background-color: #D4E7C5;
+  height: 200px;
+  cursor: pointer;
+}
+
+.foot {
+  float: bottom;
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+  background-color: #FF6969;
+  height: 150px;
+  width: 100%;
+}
+
+.rightreserved {
+  color: #FFF5E0;
+  position: relative;
+ width: 50%;
+ right: 4px;
+}
+
+.f-left {
+  color: #FFF5E0;
+  width: 60%;
+  text-align: center;
+  left: 70px;
+  position: relative;
+}
+
+.f-left a {
+  text-decoration: none;
+  color: #FFF5E0;
+}
+.f-mid {
+  color: #FFF5E0;
+  width: 50%;
+  text-align: center;
+  left: 600px;
+  position: relative;
+  bottom: 50px;
+}
+
+.f-right {
+  color: #FFF5E0;
+  text-align: center;
+  right: 20px;
+  position: absolute;
+  bottom: 50px;
+}
+
+
+@media (max-width: 480px) {
+  .nav-one, .abfoot, .bodyimg, .bodytxt, .location {   
+    flex-direction: column;
+ }
+}
+
+
+.nav-one {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.nav-one a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.bodyimg {
+  padding: 100px;
+  margin: 20px;
+
+}
+
+.abbtop {
+  font-family: "Alex Brush", cursive;
+  font-size: 30px;
+  color: white;
+}
+
+.bodytxt {
+  text-align: center;
+  float: right;
+  width: 50%;
+  text-indent: 20px;
+  top: 20px;
+  left: 30%;
+}
+
+.abbtip {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  line-height: 20px;
+  font-size: 25px;
+}
+
+.abfoot {
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+  background-color: #99BC85;
+  height: 150px;
+  width: 100%;
+  padding: 40px;
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  .nav, .foot2, .location, .input {   
+    flex-direction: column;
+ }
+}
+
+.nav {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #99BC85;
+  font-weight: bold;
+}
+
+#ab {
+  position: absolute;
+  top: 30px;
+  left: 900px;
+
+}
+
+#oc {
+  position: absolute;
+  top: 30px;
+  right: 600px;
+}
+#pl {
+  position: absolute;
+  top: 30px;
+  right: 700px;
+}
+
+
+.location {
+  background-color: white;
+  width: 100%;
+  padding: 200px;
+  height: 3O0px;  
+}
+
+.location a {
+  text-decoration: none;
+  color: #99BC85;
+  font-weight: bold;
+}
+
+.location a:hover {
+  background-color: #99BC85;
+  color: #FF6969;
+}
+
+.visit {
+  color: #99BC85; 
+  position: absolute;
+  width: 50%;  
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.store1 {
+  color: #99BC85;
+  width: 60%;
+  text-align: center;
+  position: absolute;     
+  left: 150px;
+}
+
+.store2 {
+  color: #99BC85;
+  text-align: center;
+  position: absolute;
+  right: 100px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #99BC85; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: #99BC85;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FF6969;
+}
+
+.contacttext {
+  border-radius: 5px;
+  background-color: #99BC85;
+  padding: 40px;
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+  color: #FFF5E0;
+  font-size: 20px;
+}
+
+.foot2 {
+  font-family: "Raleway", sans-serif;
+  background-color: #99BC85;
+  height: 150px;
+  width: 100%;
+  padding: 40px; 
+}
+
+.rightreserved2 {
+  color: white;
+  float: right;
+ position: absolute;
+ width: 50%;
+}
+
+.f-left2 {
+  color: white;
+  width: 60%;
+  text-align: center;
+  position: absolute;
+  left: 70px;
+}
+
+.f-left2 a {
+  text-decoration: none;
+  color: white;
+}
+.f-mid2 {
+  color: white;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  left: 600px;
+}
+
+.f-right2 {
+  color: white;
+  text-align: center;
+  position: absolute;
+  right: 100px;
+}
+
+
+
+
+
+
+
+
+
+.wayfind {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.wayfind a {
+  text-decoration: none;
+  color: #99BC85;
+  font-weight: bold;
+}
+
+.frntimg {
+  padding: 100px;
+  margin: 20px;
+
+}
+
+.frnttxt {
+  text-align: center;
+  float: right;
+  width: 50%;
+  text-indent: 20px;
+  top: 20px;
+  left: 30%;
+}
+
+.nan {
+  font-family: "Nanum Gothic Coding", monospace;
+  color: #99BC85;
+  line-height: 20px;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 480px) {
+  #images {width: 200px; float: left;}
+}
+
+#images {
+  border: #99BC85 solid;
+  background-color: #99BC85;
+  display: block;
+  width: 100%;
+}
+
+.ocstyle {
+  font-family: "Nanum Gothic Coding", monospace;
+  color: #99BC85;
+  line-height: 20px;
+  font-size: 25px;
+  margin: 40px;
+ position: relative;
+ left: 60px;
+}
+
+.foot {
+  font-family: "Raleway", sans-serif;
+  background-color: #99BC85;
+  height: 150px;
+  width: 100%;
+  padding: 40px;
+}
+
+.rightreserved {
+  color: #FFF5E0;
+  left: 5%;
+ position: absolute;
+ width: 50%;
+}
+
+.f-left {
+  color: #FFF5E0;
+  width: 60%;
+  text-align: center;
+  position: absolute;
+  left: 70px;
+}
+
+.f-left a {
+  text-decoration: none;
+  color: #FFF5E0;
+}
+.f-mid {
+  color: #FFF5E0;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  left: 600px;
+}
+
+.f-right {
+  color: #FFF5E0;
+  text-align: center;
+  position: absolute;
+  right: 100px;
+}
